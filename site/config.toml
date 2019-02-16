@@ -3,11 +3,11 @@ languageCode = 'en-gb'
 title = 'Sanitised JSON from MD using NetlifyCMS'
 theme = 'ga-hugo-theme'
 
-# [mediaTypes]
-#   [mediaTypes.'text/netlify']
-#     suffixes = ['json']
-#     delimiter = ''
-#
+[mediaTypes]
+  [mediaTypes.'text/netlify']
+    suffixes = ['json']
+    delimiter = ''
+
 #   [outputs]
 #     page = ['json', 'players', 'html']#
 #     home = ['json', 'redirect', 'html']#
