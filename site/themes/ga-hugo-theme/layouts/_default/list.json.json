@@ -7,14 +7,11 @@
             "taxonomy" : "{{ $.Data.Singular }}",
             "term" : "{{ $.Data.Term }}",
         {{ end }}
-        "count" : "{{ len .Data.Pages }}",
-        
-        
-        "items" : [
+        "count" : "{{ len .Data.Pages }}"
+        ,"items" : [
         {{ range $i, $e := .Data.Pages }}
             {{ if $i }}, {{ end }}{{ .Render "item" }}
         {{ end }}
         ]
-
     }
 {{ end }}
