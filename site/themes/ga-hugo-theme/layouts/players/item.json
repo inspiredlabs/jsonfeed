@@ -4,5 +4,5 @@
 "permalink" : "{{ .Permalink }}",
 "year" : "{{ .Params.year }}",{{ range $index, $e := .Site.Taxonomies }}{{ with $.Param $index }}
 "{{ $index }}" : "{{ delimit . ", "}}",{{ end }}{{ end }}
-"eof": "eof"
+"changed": "{{ .Lastmod }}"
 }
