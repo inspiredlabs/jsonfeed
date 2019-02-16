@@ -9,8 +9,8 @@ theme = "ga-hugo-theme"
     delimiter = ""
 
   [outputs]
-    page = ["json", "html"]
-    home = ["json", "redirect"]
+    page = ["json", "html"]#, "players"
+    home = ["json", "redirect", "html"]
     #teams = ["json"]
     section = ["json", "html"]
     #taxonomy = ["json", "players"]
