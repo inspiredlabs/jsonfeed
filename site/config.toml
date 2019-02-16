@@ -3,29 +3,37 @@ languageCode = 'en-gb'
 title = 'Sanitised JSON from MD using NetlifyCMS'
 theme = 'ga-hugo-theme'
 
+# Goal:
+# render HTML
+# render JSON endpoints
+# render collation of JSON: http://localhost:1313/players/index.json
+# test NetlifyCMS
+# produce sanitised JSON in refine the UI
+# review requirements for API
+
 [mediaTypes]
   [mediaTypes.'text/netlify']
     suffixes = ['json']
     delimiter = ''
 
-#   [outputs]
-#     page = ['json', 'players', 'html']#
-#     home = ['json', 'redirect', 'html']#
-#     teams = ['json']
-#     section = ['json']
-#     taxonomy = ['json', 'players']
+  [outputs]
+    page = ['json', 'players', 'html']#
+    home = ['json', 'html']#'redirect',
+    teams = ['json']
+    section = ['json']
+    taxonomy = ['json', 'players']
+
+  [outputFormats.players]
+    baseName = 'players'
+    mediatype ='application/json'
+
+# [outputFormats.redirect]
+#   mediatype = 'text/netlify'
+#   baseName = '_redirects'
 #
-#   [outputFormats.players]
-#     baseName = 'players'
-#     mediatype ='application/json'
-#
-  [outputFormats.redirect]
-    mediatype = 'text/netlify'
-    baseName = '_redirects'
-#
-#   [taxonomies]
-#     sport = 'sports'
-#     practice = 'practices'
-#
-#   [permalinks]
-#     page = '/:section/:title/'
+  [taxonomies]
+    sport = 'sports'
+    practice = 'practices'
+
+  [permalinks]
+    page = '/:section/:title/'
