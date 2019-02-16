@@ -9,11 +9,11 @@ theme = "ga-hugo-theme"
     delimiter = ""
 
   [outputs]
-    page = ["json","players", "html"]
-    home = ["json", "redirect", "html"]
+    page = ["json", "html"]
+    home = ["json", "redirect"]
     #teams = ["json"]
     section = ["json", "html"]
-    taxonomy = ["json", "players"]
+    #taxonomy = ["json", "players"]
 
   [outputFormats.players]
     baseName = "players"
