@@ -4,15 +4,21 @@ title = "first_site"
 theme = "ga-hugo-theme"
 
 [mediaTypes]
-  [mediaTypes."text/netlify"]
-    suffixes = ["json"]
-    delimiter = ""
+  # [mediaTypes."text/netlify"]
+  #   suffixes = ["json"]
+  #   delimiter = ""
+  [mediaTypes."text/json"]
+    suffix = "json"
+  [mediaTypes."text/html"]
+    suffix = "html"
+
+
 
   [outputs]
-    page = ["html", "json"]#, "players"
+    page = ["json", "html"]#, "players"
     home = ["html", "json", "redirect"]
     #teams = ["json"]
-    section = ["html", "json"]
+    section = ["json", "html"]
     #taxonomy = ["json", "players"]
 
   [outputFormats.players]
