@@ -1,0 +1,23 @@
+backend:
+  name: git-gateway
+
+media_folder: 'site/static/img' # Folder where user uploaded files should go
+public_folder: 'img'
+
+collections: # A list of collections the CMS should be able to edit
+  - name: 'players' # Used in routes, ie.: /admin/collections/:slug/edit
+    label: 'Players' # Used in the UI, ie.: 'New Post'
+    folder: 'site/content/players' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    fields: # The fields each document in this collection have
+      # - {label: 'Region', name: 'region', widget: 'select', options: ['en', 'it'], required: true, default: 'it' }
+      - {label: 'Title', name: 'title', widget: 'string', default: '' }
+      - {label: 'Publish Date', name: 'date', widget: 'datetime'}
+      - {label: 'Age', name: 'age', widget: 'number', valueType: 'int', default: '16' }
+      - {label: 'Emergancy contact', name: 'emergency_contact', widget: 'string', default: '+1 (555) 555 5555'}
+      - {label: 'Sports', name: 'sports', widget: 'select', options: ['soccer', 'baseball'], required: true, default: baseball}
+      - {label: 'Team', name: 'team', widget: 'string', default: ''}
+      - {label: 'Practices', name: 'practices', widget: 'select', multiple: true, options: ['Mon', 'Tue', 'Wed', 'Thur', 'Fri', 'Sat', 'Sun'], required: false, default: 'Sat'}
+      - {label: 'Year', name: 'year', widget: 'string', default: 'junior'}
+      #- {label: 'Image', name: 'image', widget: 'image', required: false}
+      - {label: 'Body', name: 'body', widget: 'markdown'}

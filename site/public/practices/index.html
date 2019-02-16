@@ -1,0 +1,601 @@
+<html>
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+     <title>`list.html`</title>
+	    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>     
+</head>
+<body>
+     <div style="text-align: center; height: 75px; padding:1px;   text-transform:capitalize; background-color:#42a5f5; color:white">
+     <h1 style="margin-bottom:-10px; "><a style="text-decoration: none; color:white;"href="/">List Template - taxonomyTerm</a></h1>
+</div>
+     
+     
+          <div style="border: 1px solid black; margin:10px; padding:10px; ">
+               <div style="font-size:20px;">
+                    <a href="/practices/mon/">Mon</a>
+               </div>
+               <div style="color:grey; font-size:16px;">Thursday, Feb 7, 2019</div>
+               <div style="color:grey; font-size:16px;">
+               </div>
+               <div style="color:grey; font-size:16px;">
+               </div>
+               <div style="color:grey; font-size:16px;"></div>
+
+               <p style="font-size:18px;"></p>
+          </div>
+     
+          <div style="border: 1px solid black; margin:10px; padding:10px; ">
+               <div style="font-size:20px;">
+                    <a href="/practices/monday/">Monday</a>
+               </div>
+               <div style="color:grey; font-size:16px;">Monday, Feb 5, 2018</div>
+               <div style="color:grey; font-size:16px;">
+               </div>
+               <div style="color:grey; font-size:16px;">
+               </div>
+               <div style="color:grey; font-size:16px;"></div>
+
+               <p style="font-size:18px;"></p>
+          </div>
+     
+          <div style="border: 1px solid black; margin:10px; padding:10px; ">
+               <div style="font-size:20px;">
+                    <a href="/practices/thursday/">Thursday</a>
+               </div>
+               <div style="color:grey; font-size:16px;">Monday, Feb 5, 2018</div>
+               <div style="color:grey; font-size:16px;">
+               </div>
+               <div style="color:grey; font-size:16px;">
+               </div>
+               <div style="color:grey; font-size:16px;"></div>
+
+               <p style="font-size:18px;"></p>
+          </div>
+     
+     <div style="height:35px;"></div>
+<div style=" position:fixed; color: white; height:35px; background-color:#757575; bottom:0px; text-align:center; width:99%">
+     <p style="margin:10px; "><a style="color: white; " target="_blank" href="http://www.giraffeacademy.com/">Giraffe Academy</a> - Hugo Theme</p>
+</div>
+
+     <style>
+  *:focus{outline:none;}
+	::selection, .panel-links *::selection, blockquote *::selection{color:inherit;background:transparent;}
+	::-moz-selection, .panel-links *::-moz-selection, blockquote *::-moz-selection{color:inherit;background:transparent;}
+	h2::selection, h3::selection, h4::selection, h4 *::selection, p::selection, p *::selection, table *::selection, address::selection, figcaption::selection, figcaption *::selection{background:#fd6f22;}
+	h2::-moz-selection, h3::-moz-selection, h4::-moz-selection, h4 *::-moz-selection, p::-moz-selection, p *::-moz-selection, table *::-moz-selection, address::-moz-selection, figcaption::-moz-selection, figcaption *::-moz-selection{background:#fd6f22;}
+
+   
+	summary::-webkit-details-marker {
+		display: none
+	}
+
+	#sticky-inspect {
+		-webkit-tap-highlight-color:rgba(0,0,0,0.1);
+		position:fixed;
+		z-index:999;
+		right: 3rem;
+		top: 3rem;  
+		min-height:2rem;
+		min-width:18rem;
+		height:2rem;
+		width:18rem;
+		max-width:42rem;		
+		max-height: 99%;
+		background: lemonchiffon;  
+		overflow-x: hidden;
+		overflow-y: scroll;
+		-webkit-overflow-scrolling: touch;  
+		resize: both;
+		box-shadow: 0px 0.2rem 0.6rem #282828;
+		font-family: monospace;
+	}
+
+	#sticky-inspect header {
+		position: sticky;
+		position: -webkit-sticky;
+		top: 0;
+		left: 0;
+		right: 0;
+		background: rgba(255, 250, 205, .888);
+		padding:0.5rem;
+		text-align: right;
+	}
+
+	#sticky-inspect header:before {
+		content: ''; 
+		width: 100%;
+	}
+
+	.close { max-height: 2rem!important; }
+	.open { min-height: 12rem!important; }
+
+	[draggable=true] {
+	  cursor: move;
+	}
+
+	.inspect-heading summary:before {
+		background: rgba(0, 0, 0, .1);
+		border-radius: 99px;
+		content: "+";
+		color: #fff;
+		float: left;
+		font-size: 0.7rem;
+		line-height: 0.945rem;
+		text-align: center;
+		min-width: 15px;
+		height: 15px;
+		display: inline-block;
+		position: relative;
+		margin: 6px 1rem 0 6px;
+		clear: left;
+	}
+
+	.inspect-headings details[open] summary:before {
+	    content: "-";
+	    min-width: 15px;
+	}
+
+	.inspect summary:before {
+		background: rgba(0, 0, 0, .06);
+		margin: 0 1rem 0 6px;
+	}
+
+	.inspect details[open] summary:before {
+	    content: "-";
+	    min-width: 15px;
+	}
+
+	#sticky-inspect details, #sticky-inspect summary { display: block; }
+	#sticky-inspect summary { cursor: pointer;}
+	#sticky-inspect details:hover { background: rgba(0, 0, 0, .04); }
+
+
+	 
+	 
+	.decimal ol {  display: block; }
+	.decimal li { list-style:decimal; }  
+	.inspect > ul li { list-style: none; color: red; }
+	
+
+	
+	#sticky-inspect ul { list-style: none; padding: 0; }
+	#sticky-inspect li:nth-child(odd) { background: rgba(0, 0, 0, .015); }  
+	#sticky-inspect li p { margin-left:calc(2rem + 6px); }
+	#sticky-inspect code { color:blue; }
+</style>
+<aside draggable="true" id="sticky-inspect">
+  <header onclick="toggle();"><code>map[Singular:practice Plural:practices Terms:map[mon:[WeightedPage(0,&#34;Bill Gates&#34;)] monday:[WeightedPage(0,&#34;Frank J. Robinson&#34;)] thursday:[WeightedPage(0,&#34;Frank J. Robinson&#34;)]] OrderedIndex:map[mon:[WeightedPage(0,&#34;Bill Gates&#34;)] monday:[WeightedPage(0,&#34;Frank J. Robinson&#34;)] thursday:[WeightedPage(0,&#34;Frank J. Robinson&#34;)]] Index:map[mon:[WeightedPage(0,&#34;Bill Gates&#34;)] monday:[WeightedPage(0,&#34;Frank J. Robinson&#34;)] thursday:[WeightedPage(0,&#34;Frank J. Robinson&#34;)]] Pages:Pages(3)]</code> &#9587;</header>
+	  <p>
+    	<ol class="decimal">
+	    	  		
+	    	<li >
+	  		  <details class="inspect">
+			    <summary>Mon</summary>
+	    			<ul class="">
+	      			<li><a href="/practices/mon/">/practices/mon/</a></li>
+	    				<li></li>    			
+	    				<li>Mon</li>
+	    			</ul>
+				  </details>
+				</li>
+	    	  		
+	    	<li >
+	  		  <details class="inspect">
+			    <summary>Monday</summary>
+	    			<ul class="">
+	      			<li><a href="/practices/monday/">/practices/monday/</a></li>
+	    				<li></li>    			
+	    				<li>Monday</li>
+	    			</ul>
+				  </details>
+				</li>
+	    	  		
+	    	<li >
+	  		  <details class="inspect">
+			    <summary>Thursday</summary>
+	    			<ul class="">
+	      			<li><a href="/practices/thursday/">/practices/thursday/</a></li>
+	    				<li></li>    			
+	    				<li>Thursday</li>
+	    			</ul>
+				  </details>
+				</li>
+	    				
+    	</ol>
+	  </p>
+  <ul style="padding:1rem;">
+    <li>
+      <details class="inspect-heading">
+        <summary>
+          <h3>Custom</h3>
+        </summary>
+        <ul>
+          <li>
+            <details class="inspect">
+              <summary>For `regionSelect`:<code></code> Custom: &#123;&#123; .Params.region &#123;&#123;</summary>
+              
+              <p>test</p>
+            </details>
+          </li>
+          <li>
+            <details class="inspect">
+              <summary>For `bLazy`:<code></code> &#123;&#123; .Params.image &#123;&#123;</summary>
+              <p>test</p>
+            </details>
+          </li>
+        </ul>
+      </details>
+    </li>
+    <li>
+      <details class="inspect-heading">
+      <summary>
+        <h3>Page Variables <a href="https://gohugo.io/variables/page/#page-variables">&#128279;</a></h3>
+      </summary>
+      <ul>
+        <li>
+          <details class="inspect">
+            <summary><code>[0xc00014c8c0]</code> &#123;&#123;.AlternativeOutputFormats&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/templates/output-formats/">Custom Output Formats</a></p>
+          </details>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>map[Index:map[mon:[WeightedPage(0,&#34;Bill Gates&#34;)] monday:[WeightedPage(0,&#34;Frank J. Robinson&#34;)] thursday:[WeightedPage(0,&#34;Frank J. Robinson&#34;)]] Pages:Pages(3) Singular:practice Plural:practices Terms:map[mon:[WeightedPage(0,&#34;Bill Gates&#34;)] monday:[WeightedPage(0,&#34;Frank J. Robinson&#34;)] thursday:[WeightedPage(0,&#34;Frank J. Robinson&#34;)]] OrderedIndex:map[mon:[WeightedPage(0,&#34;Bill Gates&#34;)] monday:[WeightedPage(0,&#34;Frank J. Robinson&#34;)] thursday:[WeightedPage(0,&#34;Frank J. Robinson&#34;)]]]</code> &#123;&#123;.Data&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/page/#page-variables">the data specific to this type of page.</a></p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>2019-02-07 19:02:56.878 &#43;0000 UTC</code> &#123;&#123;.Date&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/page/#page-variables">the date associated with the page; &#123;&#123;.Lastmod&#125;&#125;, &#123;&#123;.PublishDate&#125;&#125;</a></p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code></code> &#123;&#123;.Description&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/page/#page-variables">Front-matter blurb &#123;&#123;description&#125;&#125;</a></p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code></code> &#123;&#123;.Dir&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/page/#page-variables">path is relative to the &#123;&#123;content&#125;&#125; folder</a></p>
+          </details>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>0001-01-01 00:00:00 &#43;0000 UTC</code> &#123;&#123;.ExpiryDate&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/page/#page-variables">content is scheduled to expire. Set up a reduced test case.</a></p>
+          </details>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>100</code> &#123;&#123;.FuzzyWordCount&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/page/#page-variables">word count</a></p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>{  production}</code> &#123;&#123;.Hugo&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/hugo/">the four Hugo Variables, &#123;&#123;.Hugo.Version&#125;&#125;, &#123;&#123;.Hugo.CommitHash&#125;&#125;, &#123;&#123;.Hugo.BuildDate&#125;&#125;</a></p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code><meta name="generator" content="Hugo 0.54.0" /></code> &#123;&#123;.Hugo.Generator&#125;&#125;</summary>
+            <p><a href="http://themes.gohugo.io/">&#123;&#123;.Hugo.Generator&#125;&#125; is the tracking tag</a></p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>false</code> &#123;&#123;.IsHome&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/templates/homepage/">&#123;&#123;true&#125;&#125; context</a>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>true</code> &#123;&#123;.IsNode&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/page/#page-variables">always &#123;&#123;false&#125;&#125; for regular content</a>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>false</code> &#123;&#123;.IsPage&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/page/#page-variables">always &#123;&#123;true&#125;&#125; for regular content</a>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>false</code>  &#123;&#123;.IsTranslated&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/page/#page-variables">&#123;&#123;true&#125;&#125; for real translations</a></p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>[]</code> &#123;&#123;.Keywords&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/page/#page-variables">meta</a>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>taxonomyTerm</code> &#123;&#123;.Kind&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/page/#page-variables">
+              &#123;&#123;page&#125;&#125;, &#123;&#123;home&#125;&#125;,
+              &#123;&#123;section&#125;&#125;, &#123;&#123;taxonomy&#125;&#125;,
+              &#123;&#123;taxonomyTerm&#125;&#125;.</a>
+            </p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>en</code> &#123;&#123;.Lang&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/page/#page-variables">language extension notation.</a>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>en</code> &#123;&#123;.Language&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/page/#page-variables">object that points to the definition in the site &#123;&#123;config&#123;&#123;.</a>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>2019-02-07 19:02:56.878 &#43;0000 UTC</code> &#123;&#123;.Lastmod&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/git/">&#123;&#123;lastmod&#125;&#125; field in front-matter or: &#123;&#123;.GitInfo&#123;&#123;.</a></p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>Practices</code> &#123;&#123;.LinkTitle&#125;&#125;</summary>
+            <p><a href="https://gohugo.io/variables/page/#page-variables">access when creating links to the content. If set, Hugo will use the &#123;&#123;linktitle&#125;&#125; from the front-matter before &#123;&#123;title&#123;&#123;.</a></p>
+          </details>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>[0xc00014c9a0 0xc00014ca80]</code> &#123;&#123;.OutputFormats&#125;&#125;</summary>
+            <p>Pointer to the next <a href="https://gohugo.io/variables/site/#site-pages">regular page</a> (sorted by <a href="https://gohugo.io/templates/lists#default-weight-date-linktitle-filepath">Hugo’s default sort</a>).</p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>Pages(3)</code> &#123;&#123;.Pages&#125;&#125;</summary>
+            <p>a collection of associated pages. This value will be nil within the context of regular content pages. See <a href="https://gohugo.io/variables/page/#page-variables#pages">.Pages</a>.</p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>https://jsonfeed.netlify.com/practices/</code> &#123;&#123;.Permalink&#125;&#125;</summary>
+            <p>the Permanent link for this page; see. See <a href="https://gohugo.io/content-management/urls/">Permalinks</a>.</p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code></code> &#123;&#123;.Plain&#125;&#125;</summary>
+            <p>the Page content stripped of HTML tags and presented as a string.</p>
+          </details>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>0001-01-01 00:00:00 &#43;0000 UTC</code> &#123;&#123;.PublishDate&#125;&#125;</summary>
+            <p>the date on which the content was or will be published; &#123;&#123;.Publishdate&#125;&#125; pulls from the &#123;&#123;publishdate&#125;&#125; field in a content’s front-matter. See also &#123;&#123;.ExpiryDate&#125;&#125;, &#123;&#123;.Date&#125;&#125;, and &#123;&#123;.Lastmod.</p>
+          </details>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary>&#123;&#123;.RawContent&#125;&#125;</summary>
+            <p>raw markdown content without the front matter. Useful with  <a href="http://remarkjs.com/">remarkjs.com</a>. <i>This has been intentionally omitted.</i></p>
+          </details>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary>&#123;&#123;.Ref&#125;&#125;</summary>
+            <p>returns the permalink for a given reference (e.g., &#123;&#123;.Ref "sample.md"&#125;&#125;). &#123;&#123;.Ref&#125;&#125; does not handle in-page fragments correctly. See <a href="https://gohugo.io/content-management/cross-references/">Cross References</a>. <i>This has been intentionally omitted.</i></p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>/practices/</code> &#123;&#123;.RelPermalink&#125;&#125;</summary>
+            <p>the relative permanent link for this page.</p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary>&#123;&#123;.RelRef&#125;&#125;</summary>
+            <p>returns the relative permalink for a given reference (e.g., &#123;&#123;.RelRef "sample.md"&#125;&#125;). &#123;&#123;.Ref&#125;&#125; does not handle in-page fragments correctly. See <a href="https://gohugo.io/content-management/cross-references/">Cross References</a>. <i>This has been intentionally omitted.</i></p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>Site(&#34;first_site&#34;)</code> &#123;&#123;.Site&#125;&#125;</summary>
+            <p>see <a href="https://gohugo.io/variables/site/">Site Variables</a>.</p>
+          </details>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code></code> &#123;&#123;.Summary&#125;&#125;</summary>
+            <p>a generated summary of the content for easily showing a snippet in a summary view. The breakpoint can be set manually by commenting &#123;&#123;&lt;!--more--&gt;&#125;&#125; at the appropriate place in the content page. See <a href="https://gohugo.io/content-management/summaries/">Content Summaries</a> for more details.</p>
+          </details>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>Practices</code> &#123;&#123;.Title&#125;&#125;</summary>
+            <p>the title for this page.</p>
+          </details>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>false</code> &#123;&#123;.Truncated&#125;&#125;</summary>
+            <p>a boolean, &#123;&#123;true&#125;&#125; if the &#123;&#123;.Summary&#125;&#125; is truncated. Useful for showing a “Read more…” link only when necessary. See <a href="https://gohugo.io/content-management/summaries/">Summaries</a> for more information.</p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>practices</code> &#123;&#123;.Type&#125;&#125;</summary>
+            <p>the <a href="https://gohugo.io/content-management/types/">content type</a>, eg: &#123;&#123;post&#123;&#123;.</p>
+          </details>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>d41d8cd98f00b204e9800998ecf8427e</code> &#123;&#123;.UniqueID&#125;&#125;</summary>
+            <p>the MD5-checksum of the content file’s path.</p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>0</code> &#123;&#123;.Weight&#125;&#125;</summary>
+            <p>assigned weight (in the front matter) to this content, used in sorting.</p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary><code>0</code> &#123;&#123;.WordCount&#125;&#125;</summary>
+            <p>the number of words in the content.</p>
+          </details>
+        </li>
+      </ul>
+    </li>
+    <li>
+      <details class="inspect-heading">
+      <summary>
+        <h3>Section Variables and Methods <a href="https://gohugo.io/variables/page/#section-variables-and-methods">&#128279;</a> Also see <a href="https://gohugo.io/content-management/sections/">Sections</a>.</h3>
+      </summary>
+      <ul>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary>&#123;&#123;.InSection $anotherPage&#125;&#125;</summary>
+            <p>Whether the given page is in the current section. Note that this will always return &#123;&#123;false&#125;&#125; for pages that are not either <a href="https://gohugo.io/variables/site/#site-pages">regular</a>, home or <a href="https://gohugo.io/templates/section-templates/">section pages</a>.</p>
+            <p>Hugo generates a section tree that matches your content.</p>
+            <p>A Section is a collection of pages that gets defined based on the organization structure under the &#123;&#123;content/&#125;&#125; directory.</p>
+            <p>By default, all the <b>first-level</b> directories under &#123;&#123;content/&#125;&#125; form their own sections (<b>root sections</b>).</p>
+            <p>See <a href="https://gohugo.io/content-management/sections/#nested-sections">nested sections</a>.
+              <i>This has been intentionally omitted.</i>
+            </p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary>&#123;&#123;.IsAncestor&#125;&#125;</summary>
+            <p>Whether the current page is an ancestor of the given page. Note that this method is not relevant for taxonomy lists and taxonomy terms pages. <i>This has been intentionally omitted.</i></p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary>&#123;&#123;.IsAncestor&#125;&#125;</summary>
+            <p>Whether the current page is an ancestor of the given page. Note that this method is not relevant for taxonomy lists and taxonomy terms pages. <i>This has been intentionally omitted.</i></p>
+          </details>
+        </li>
+        <li>
+          <details class="inspect">
+            <summary>&#123;&#123;.IsDescendant&#125;&#125;</summary>
+            <p>Whether the current page is a descendant of the given page. Note that this method is not relevant for taxonomy lists and taxonomy terms pages. <i>This has been intentionally omitted.</i></p>
+          </details>
+        </li>
+        <li>etc...</li>
+      </ul>
+    </li>
+    <li>
+      <details class="inspect-heading">
+      <summary>
+        <h3>Taxonomy Variables <a href="https://gohugo.io/variables/taxonomy/">&#128279;</a></h3>
+      </summary>
+      <ul>
+        <li>
+          <details class="inspect">
+            <summary><code>practice</code>	 &#123;&#123;.Data.Singular&#125;&#125;</summary>
+            <p>The singular name of the taxonomy (e.g., &#123;&#123;tags => tag&#125;&#125;).</p>
+          </details>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+        <li>
+          <p>test</p>
+        </li>
+      </ul>
+    </li>
+  </ul>
+</aside>
+<script>
+	
+	function toggle() {
+	   var element = document.getElementById("sticky-inspect");
+	   element.classList.toggle("open");
+	}
+
+
+	
+	function drag_start(event) {
+		    var style = window.getComputedStyle(event.target, null);
+		    event.dataTransfer.setData("text/plain",
+		    (parseInt(style.getPropertyValue("left"),10) - event.clientX) + ',' + (parseInt(style.getPropertyValue("top"),10) - event.clientY));
+		}
+		function drag_over(event) {
+		    event.preventDefault();
+		    return false;
+		}
+		function drop(event) {
+		    var offset = event.dataTransfer.getData("text/plain").split(',');
+		    var dm = document.getElementById('sticky-inspect');
+		    dm.style.left = (event.clientX + parseInt(offset[0],10)) + 'px';
+		    dm.style.top = (event.clientY + parseInt(offset[1],10)) + 'px';
+		    event.preventDefault();
+		    return false;
+		}
+		var dm = document.getElementById('sticky-inspect');
+		dm.addEventListener('dragstart',drag_start,false);
+		document.body.addEventListener('dragover',drag_over,false);
+		document.body.addEventListener('drop',drop,false);
+</script>
+     
+</body>
+</html>

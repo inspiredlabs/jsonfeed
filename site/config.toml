@@ -12,7 +12,7 @@ theme = "ga-hugo-theme"
     page = ["json", "html"]#, "players"
     home = ["html", "json", "redirect"]
     #teams = ["json"]
-    section = ["json", "html"]
+    section = ["html", "json"]
     #taxonomy = ["json", "players"]
 
   # [outputFormats.players]

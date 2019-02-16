@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Thursday on first_site</title>
+    <link>https://jsonfeed.netlify.com/practices/thursday/</link>
+    <description>Recent content in Thursday on first_site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Mon, 05 Feb 2018 16:05:27 -0500</lastBuildDate>
+    
+	<atom:link href="https://jsonfeed.netlify.com/practices/thursday/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Frank J. Robinson</title>
+      <link>https://jsonfeed.netlify.com/players/frank-j-robinson/index.json</link>
+      <pubDate>Mon, 05 Feb 2018 16:05:27 -0500</pubDate>
+      
+      <guid>https://jsonfeed.netlify.com/players/frank-j-robinson/index.json</guid>
+      <description>Frank, our number one second baseman!</description>
+    </item>
+    
+  </channel>
+</rss>

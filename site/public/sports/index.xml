@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sports on first_site</title>
+    <link>https://jsonfeed.netlify.com/sports/</link>
+    <description>Recent content in Sports on first_site</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-gb</language>
+    <lastBuildDate>Thu, 07 Feb 2019 19:02:56 +0000</lastBuildDate>
+    
+	<atom:link href="https://jsonfeed.netlify.com/sports/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Baseball</title>
+      <link>https://jsonfeed.netlify.com/sports/baseball/</link>
+      <pubDate>Thu, 07 Feb 2019 19:02:56 +0000</pubDate>
+      
+      <guid>https://jsonfeed.netlify.com/sports/baseball/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Soccer</title>
+      <link>https://jsonfeed.netlify.com/sports/soccer/</link>
+      <pubDate>Mon, 05 Feb 2018 16:05:27 -0500</pubDate>
+      
+      <guid>https://jsonfeed.netlify.com/sports/soccer/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
