@@ -7,10 +7,10 @@ theme = "ga-hugo-theme"
   # [mediaTypes."text/netlify"]
   #   suffixes = ["json"]
   #   delimiter = ""
-  [mediaTypes."text/json"]
-    suffix = "json"
+  [mediaTypes."text/netlify"]
+    suffix = ["json"]
   [mediaTypes."text/html"]
-    suffix = "html"
+    suffix = ["html"]
 
 
 
