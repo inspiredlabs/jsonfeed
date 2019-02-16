@@ -9,7 +9,6 @@ practices:
   - Sat
   - Wed
   - Thur
-  - Tue
 year: Seniors
 ---
 Man's still got the ball.
