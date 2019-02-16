@@ -10,8 +10,8 @@ theme = "ga-hugo-theme"
 
   [outputs]
     page = ["json","players", "html"]
-    home = ["json", "redirect"]
-    teams = ["json"]
+    home = ["json", "redirect", "html"]
+    #teams = ["json"]
     section = ["json"]
     taxonomy = ["json", "players"]
 
