@@ -17,7 +17,7 @@ theme = 'ga-hugo-theme'
     delimiter = ''
 
   [outputs]
-    page = ['json', 'players', 'html']#
+    page = ['json', 'players']#, 'html'
     home = ['json', 'html']#'redirect',
     teams = ['json']
     section = ['json']
@@ -30,7 +30,7 @@ theme = 'ga-hugo-theme'
 # [outputFormats.redirect]
 #   mediatype = 'text/netlify'
 #   baseName = '_redirects'
-#
+
   [taxonomies]
     sport = 'sports'
     practice = 'practices'
