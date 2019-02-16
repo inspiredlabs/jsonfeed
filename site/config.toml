@@ -1,4 +1,4 @@
-baseURL = "./" #baseURL = "http://example.org/"
+baseURL = "/" #baseURL = "./" or "https://jsonfeed.netlify.com/"
 languageCode = "en-gb"
 title = "first_site"
 theme = "ga-hugo-theme"
@@ -9,11 +9,11 @@ theme = "ga-hugo-theme"
     delimiter = ""
 
   [outputs]
-    page = ["html", "json","players"]
-    home = ["html", "json", "redirect"]
-    teams = ["html", "json"]
-    section = ["html", "json"]
-    taxonomy = ["html", "json", "players"]
+    page = ["json","players", "html"]
+    home = ["json", "redirect"]
+    teams = ["json"]
+    section = ["json"]
+    taxonomy = ["json", "players"]
 
   [outputFormats.players]
     baseName = "players"
