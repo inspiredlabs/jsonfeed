@@ -6,9 +6,6 @@ emergency_contact: +1 (555) 555 5555
 sports: baseball
 team: MicroSoccer
 practices:
-  - Sat
-  - Wed
-  - Sun
   - Mon
 year: Seniors
 ---
