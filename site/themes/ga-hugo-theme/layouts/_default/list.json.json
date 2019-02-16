@@ -5,6 +5,7 @@
         "term" : "{{ $.Data.Term }}",
     {{ end }}
     "items" : [
-{{ range $i, $e := .Data.Pages }}{{ if $i }}, {{ end }}{{ .Render "item" }}{{ end }}
+{{ range $i, $e := .Data.Pages }}{{ if $i }},
+{{ end }}{{ .Render "item" }}{{ end }}
     ]
   }{{ end }}
