@@ -3,6 +3,7 @@
         "contact" : "{{ .Params.emergency_contact }}",
         "year" : "{{ .Params.year }}",{{ range $index, $e := .Site.Taxonomies }}{{ with $.Param $index }}
         "{{ $index }}" : "{{ delimit . ", "}}",{{ end }}{{ end }}
+        "content": "{{ .Content | markdownify }}",
         "permalink" : "{{ .Permalink }}",
-        "changed": "{{ .Lastmod }}"
+        "modified": "{{ .Lastmod }}"
       }

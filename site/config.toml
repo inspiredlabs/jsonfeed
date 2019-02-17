@@ -3,13 +3,16 @@ languageCode = "en-gb"
 title = "first_site"
 theme = "ga-hugo-theme"
 
+
+
+
 [mediaTypes]
   [mediaTypes."text/netlify"]
     suffixes = ["json"]
     delimiter = ""
 
   [outputs]
-    page = ["json", "html"]#, "players"
+    page = ["json", "html"]# ["json", "html"]#, "players"
     home = ["html", "json", "redirect"]
     #teams = ["json"]
     section = ["html", "json"]
