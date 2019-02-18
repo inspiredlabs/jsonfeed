@@ -4,7 +4,7 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <title>`list.html`</title>
-	    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>     
+	    <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
      <div style="text-align: center; height: 75px; padding:1px;   text-transform:capitalize; background-color:#42a5f5; color:white">
@@ -13,9 +13,19 @@
      
      
           <div style="border: 1px solid black; margin:10px; padding:10px; ">
-               <div style="font-size:20px;">
-                    <a href="/players/frank-j-robinson/index.json">Frank J. Robinson</a>
-               </div>
+          
+          	<ul class="list" style="list-style: none;padding-left: 0;">
+
+          		<li style="color: blue; font-weight: bold;">
+          			<a href="https://jsonfeed.netlify.com/players/frank-j-robinson/">HTML</a>
+          			<span style="font-size:12px;">https://jsonfeed.netlify.com/players/frank-j-robinson/</span>
+          		</li>
+          		<li style="color: forestgreen; font-weight: bold;">
+          			<a href="https://jsonfeed.netlify.com/players/frank-j-robinson/index.json">JSON</a>
+          			<span style="font-size:12px;">/players/frank-j-robinson/index.json</span>
+          		</li>
+          	</ul>
+
                <div style="color:grey; font-size:16px;">Monday, Feb 5, 2018</div>
                <div style="color:grey; font-size:16px;">
                </div>
@@ -138,7 +148,7 @@
 	#sticky-inspect code { color:blue; }
 </style>
 <aside draggable="true" id="sticky-inspect">
-  <header onclick="toggle();"><code>map[practice:[WeightedPage(0,&#34;Frank J. Robinson&#34;)] Singular:practice Plural:practices Term:monday Pages:Pages(1)]</code> &#9587;</header>
+  <header onclick="toggle();"><code>map[Singular:practice Plural:practices Term:monday Pages:Pages(1) practice:[WeightedPage(0,&#34;Frank J. Robinson&#34;)]]</code> &#9587;</header>
 	  <p>
     	<ol class="decimal">
 	    	  		
@@ -186,7 +196,7 @@
       <ul>
         <li>
           <details class="inspect">
-            <summary><code>[0xc00025e460]</code> &#123;&#123;.AlternativeOutputFormats&#125;&#125;</summary>
+            <summary><code>[0xc00015b340]</code> &#123;&#123;.AlternativeOutputFormats&#125;&#125;</summary>
             <p><a href="https://gohugo.io/templates/output-formats/">Custom Output Formats</a></p>
           </details>
         </li>
@@ -195,7 +205,7 @@
         </li>
         <li>
           <details class="inspect">
-            <summary><code>map[practice:[WeightedPage(0,&#34;Frank J. Robinson&#34;)] Singular:practice Plural:practices Term:monday Pages:Pages(1)]</code> &#123;&#123;.Data&#125;&#125;</summary>
+            <summary><code>map[Singular:practice Plural:practices Term:monday Pages:Pages(1) practice:[WeightedPage(0,&#34;Frank J. Robinson&#34;)]]</code> &#123;&#123;.Data&#125;&#125;</summary>
             <p><a href="https://gohugo.io/variables/page/#page-variables">the data specific to this type of page.</a></p>
           </details>
         </li>
@@ -325,7 +335,7 @@
         </li>
         <li>
           <details class="inspect">
-            <summary><code>[0xc00025e540 0xc00025e620]</code> &#123;&#123;.OutputFormats&#125;&#125;</summary>
+            <summary><code>[0xc00015b420 0xc00015b500]</code> &#123;&#123;.OutputFormats&#125;&#125;</summary>
             <p>Pointer to the next <a href="https://gohugo.io/variables/site/#site-pages">regular page</a> (sorted by <a href="https://gohugo.io/templates/lists#default-weight-date-linktitle-filepath">Hugo’s default sort</a>).</p>
           </details>
         </li>

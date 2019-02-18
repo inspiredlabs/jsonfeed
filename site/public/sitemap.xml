@@ -13,6 +13,10 @@
   </url>
   
   <url>
+    <loc>https://jsonfeed.netlify.com/bla/index.json</loc>
+  </url>
+  
+  <url>
     <loc>https://jsonfeed.netlify.com/sports/baseball/</loc>
     <lastmod>2019-02-07T19:02:56+00:00</lastmod>
     <priority>0</priority>

@@ -4,6 +4,7 @@
         "year" : "junior",
         "practices" : "Monday, Thursday",
         "sports" : "soccer, baseball",
+        "content": "Frank, our number one second baseman!",
         "permalink" : "https://jsonfeed.netlify.com/players/frank-j-robinson/index.json",
-        "changed": "2018-02-05 16:05:27 -0500 -0500"
+        "modified": "2018-02-05 16:05:27 -0500 -0500"
       }

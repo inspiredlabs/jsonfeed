@@ -4,13 +4,15 @@
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <meta http-equiv="X-UA-Compatible" content="ie=edge">
      <title>`list.html`</title>
-	    {{ partial "scripts" . }}     
+	    {{ partial "scripts" . }}
 </head>
 <body>
      {{ partial "header" (dict "Kind" .Kind "Template" "List") }}
      {{.Content}}
      {{ range .Pages }}
           <div style="border: 1px solid black; margin:10px; padding:10px; ">
+          
+          <!--https://regisphilibert.com/blog/2018/07/hugo-pipes-and-asset-processing-pipeline/-->
           
           	<ul class="list" style="list-style: none;padding-left: 0;">
 
