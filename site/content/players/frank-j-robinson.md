@@ -1,12 +1,13 @@
 ---
-title: "Frank J. Robinson"
-date: 2018-02-05T16:05:27-05:00
+title: Frank J. Robinson
+date: 2018-02-05T21:05:27.000Z
 age: 17
 emergency_contact: +1 (555) 555 5555
-sports: ["soccer", "baseball"]
+sports: baseball
 team: turtles
-practices: ["Monday", "Thursday"]
-year: "junior"
+practices:
+  - Wed
+year: The year
 ---
 
 Frank, our number one second baseman!
