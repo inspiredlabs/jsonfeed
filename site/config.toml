@@ -1,9 +1,7 @@
-baseURL = "https://jsonfeed.netlify.com/" #baseURL = "./" or "https://jsonfeed.netlify.com/"
+baseURL = "/" #baseURL = "https://jsonfeed.netlify.com/" or "./" or "https://jsonfeed.netlify.com/"
 languageCode = "en-gb"
 title = "first_site"
 theme = "ga-hugo-theme"
-
-
 
 
 [mediaTypes]
@@ -29,6 +27,9 @@ theme = "ga-hugo-theme"
   [taxonomies]
     sport = "sports"
     practice = "practices"
+    team = "team"
+    year = "year"
+
 
   [permalinks]
     page = "/:section/:title/"
