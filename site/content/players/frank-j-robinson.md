@@ -10,4 +10,3 @@ year: "junior"
 ---
 
 Frank, our number one second baseman!
-
